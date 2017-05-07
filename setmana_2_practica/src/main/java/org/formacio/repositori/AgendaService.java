@@ -5,9 +5,10 @@ import java.util.Map;
 
 import javax.annotation.PostConstruct;
 
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
-@Service
+@Component("agendaService")
 public class AgendaService {
 
 	private Map<String, Persona> bbdd = new LinkedHashMap<>();
