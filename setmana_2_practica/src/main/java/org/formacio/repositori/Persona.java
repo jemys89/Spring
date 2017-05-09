@@ -1,17 +1,10 @@
 package org.formacio.repositori;
 
-import javax.xml.bind.annotation.XmlRootElement;
 
-import org.springframework.stereotype.Component;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
-@Component("persona")
-@XmlRootElement
 public class Persona {
 
 	private String clau;
-	@JsonProperty("contacte")
 	private String nom;
 	private String telefon;
 	
